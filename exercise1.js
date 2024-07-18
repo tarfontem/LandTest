@@ -14,6 +14,7 @@ for(let timeRun = 0; timeRun < 7; timeRun++)    {
     console.log(piece);
     
 }
+let x = 1;
 
 
 /*
