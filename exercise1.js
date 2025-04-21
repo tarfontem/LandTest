@@ -76,7 +76,7 @@ outputting a grid of the given width and height.
 let board = ""
 for(let line = 1; line <= 8; line++) {
     for (let position = 1 ; position <= 8; position++)   {
-        if((line + position) % 2 != 0 ) {
+        if((line + position) % 2 == 0 ) {
             board += " ";
         }else {
             board += "#"; 
